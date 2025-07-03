@@ -759,7 +759,7 @@ class RadiatorApp:
 
         # Вместо кнопки "Сброс" теперь размещаем логотип
         try:
-            logo_path = self.resource_path("Lagar.png")
+            logo_path = self.resource_path("lagar.png")
             logo_img = tk.PhotoImage(file=logo_path)
             self.logo_label = ttk.Label(self.bottom_panel, image=logo_img)
             self.logo_label.image = logo_img  # Сохраняем ссылку на изображение
